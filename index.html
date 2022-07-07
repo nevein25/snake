@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-start">
+        <div class="game-input">
+            <h2>Your Name</h2>
+            <input>
+            <h2>Select Level</h2>
+            <select id="game-level">
+                <option value="1">Easy</option>
+                <option value="2">Medium</option>
+                <option value="3">Hard</option>
+            </select>
+            <span>Start Game</span>
+        </div>
+
+    </div>
+    <h1>Snake</h1>
+    <div class="container">
+        <canvas id="game" width="800" height="500"></canvas>
+        <div class="info">
+            <div class="name">Name: <span></span></div>
+            <div class="score">Score: <span>0</span></div>
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
