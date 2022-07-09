@@ -8,7 +8,7 @@
 
 body {
 
-    background: #F2EFDC;
+    background: #e1e0d8;
 
 }
 
@@ -20,7 +20,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: 2;
-    background-color: rgb(113 134 143 / 90%);
+    background-color: rgb(191 173 173 / 84%);
 
 }
 
@@ -31,7 +31,7 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     border: 2px solid #5a1c1c;
-    border-radius: 5px;
+    border-radius: 11px;
     width: 321px;
     height: 349px;
     background: #e1e0d8;
@@ -141,7 +141,7 @@ h1 {
     width: 100%;
     height: 100%;
     z-index: 2;
-    background-color: rgb(113 134 143 / 90%);
+    background-color: rgb(191 173 173 / 84%);
 }
 
 .game-over span {

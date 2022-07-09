@@ -98,7 +98,7 @@ function drawLevel() {
     ctx.fontStyle = '#5a1c1c';
     ctx.font = "15px Trebuchet MS";
     ctx.fillText("Level: " + level, canvas.width - 100, 18);
-    console.log(level);
+    //console.log(level);
 }
 
 function drawBoard() {
